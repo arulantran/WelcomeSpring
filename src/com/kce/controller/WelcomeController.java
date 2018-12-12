@@ -11,7 +11,7 @@ public class WelcomeController {
 
    @RequestMapping(value="/",method = RequestMethod.GET )
    public String printWelcome(ModelMap model) {
-      model.addAttribute("message", "Hello Spring MVC Framework!");
+      model.addAttribute("message", "MVC Framework!");
       return "Welcome";
    }
    @RequestMapping(value="/welcome",method = RequestMethod.GET )
